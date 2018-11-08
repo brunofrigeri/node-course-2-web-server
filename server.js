@@ -30,6 +30,7 @@ app.use((req, res, next) => {
 //   res.render('maintenance.hbs', {
 //     pageTitle: 'We will be back soon.'
 //   })
+//
 // });
 
 app.use(express.static(__dirname + '/public'));
