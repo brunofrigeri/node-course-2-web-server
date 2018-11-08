@@ -48,7 +48,7 @@ hbs.registerHelper('screamIt', (text) => {
 //Express always note if the data is a json type, or html type, etc.
 app.get('/', (req, res) => {
   res.render('home.hbs', {
-    pageTitle: 'Luiza, eu te amo!',    
+    pageTitle: 'Home page',    
     welcomeMessage: 'Welcome to this website'    
   })
 });
